@@ -1,0 +1,29 @@
+risk_id,requirement_id,characteristic,priority,verification,acceptance_scenario,planned_test,status
+R-01,FR-06,Functional suitability,Must,δοκιμή,-,IT-CON-01,planned
+R-01,NFR-02,Reliability,Must,δοκιμή,-,IT-CON-02,planned
+R-02,FR-10,Functional suitability,Must,δοκιμή,AT-CI-01;AT-CI-02;AT-CI-03,IT-CI-01..03,planned
+R-02,FR-11,Functional suitability,Must,δοκιμή,AT-CI-03;AT-CI-04,IT-CI-04,planned
+R-03,FR-10,Functional suitability,Must,δοκιμή,AT-CI-02;AT-CI-03,UT-TIME-01,planned
+R-03,NFR-06,Maintainability,Must,δοκιμή+επιθεώρηση,-,UT-TIME-02,planned
+R-04,FR-13,Functional suitability,Must,δοκιμή,AT-NS-02,IT-NS-02,planned
+R-04,FR-14,Functional suitability,Must,δοκιμή,AT-NS-01;AT-NS-02;AT-NS-03,IT-NS-01..03,planned
+R-04,FR-15,Functional suitability,Must,δοκιμή,AT-NS-01;AT-NS-04;AT-NS-05,IT-NS-04..05,planned
+R-05,FR-03,Functional suitability,Must,δοκιμή,AT-DL-01,IT-DL-01,planned
+R-05,FR-04,Functional suitability,Must,δοκιμή,AT-DL-01,IT-DL-02,planned
+R-06,FR-07,Functional suitability,Must,δοκιμή,-,UT-CAP-01,planned
+R-06,FR-08,Functional suitability,Must,δοκιμή,-,UT-CAP-02,planned
+R-06,FR-09,Functional suitability,Must,δοκιμή,-,UT-GROUP-01,planned
+R-07,NFR-01,Performance efficiency,Must,δοκιμή,-,PT-01,planned
+R-08,NFR-03,Security,Must,δοκιμή+επιθεώρηση,-,SEC-01,planned
+R-09,FR-18,Functional suitability,Must,δοκιμή,-,IT-SSO-01,planned
+R-09,FR-19,Reliability,Should,δοκιμή,-,IT-SSO-02,planned
+R-09,NFR-05,Compatibility,Must,δοκιμή,-,IT-SSO-03,planned
+R-10,FR-12,Functional suitability,Must,δοκιμή,AT-CI-05;AT-CI-06,IT-CI-05..06,planned
+R-11,FR-16,Security,Must,δοκιμή,-,SEC-RBAC-01,planned
+R-12,NFR-06,Maintainability,Must,δοκιμή+επιθεώρηση,-,UT-TIME-03,planned
+R-13,FR-20,Functional suitability,Could,δοκιμή,-,IT-MAIL-01,planned
+-,FR-01,Functional suitability,Must,δοκιμή,-,UT-BOOK-01,planned
+-,FR-02,Functional suitability,Must,δοκιμή,-,UT-HOURS-01,planned
+R-14,FR-05,Functional suitability,Must,δοκιμή,-,UT-OPEN-01,planned
+R-15,FR-17,Functional suitability,Must,δοκιμή,-,IT-REPORT-01,planned
+-,NFR-04,Interaction capability,Should,επίδειξη+δοκιμή,-,UX-01,planned
