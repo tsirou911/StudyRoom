@@ -28,3 +28,5 @@ R-14,FR-05,Functional suitability,Must,δοκιμή,-,UT-OPEN-01,planned
 R-15,FR-17,Functional suitability,Must,δοκιμή,-,IT-REPORT-01,planned
 -,NFR-04,Interaction capability,Should,επίδειξη+δοκιμή,-,UX-01,planned
 R-16,NFR-07,Maintainability,Must,μέτρηση,-,-,planned
+R-17,FR-13,Maintainability,Must,επιθεώρηση+μέτρηση,-,IT-DESK-01,planned
+-,FR-13,Functional suitability,Must,δοκιμή,-,UT-DESK-01,planned
