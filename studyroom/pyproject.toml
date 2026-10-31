@@ -33,4 +33,5 @@ source = ["studyroom"]
 line-length = 130
 
 [tool.ruff.lint]
-select = ["E", "F"]
+select = ["E", "F", "B", "C90", "PLR", "SIM", "DTZ"]
+max-complexity = 10

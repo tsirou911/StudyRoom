@@ -27,3 +27,4 @@ R-13,FR-20,Functional suitability,Could,δοκιμή,-,IT-MAIL-01,planned
 R-14,FR-05,Functional suitability,Must,δοκιμή,-,UT-OPEN-01,planned
 R-15,FR-17,Functional suitability,Must,δοκιμή,-,IT-REPORT-01,planned
 -,NFR-04,Interaction capability,Should,επίδειξη+δοκιμή,-,UX-01,planned
+R-16,NFR-07,Maintainability,Must,μέτρηση,-,-,planned
