@@ -33,5 +33,17 @@ source = ["studyroom"]
 line-length = 130
 
 [tool.ruff.lint]
-select = ["E", "F", "B", "C90", "PLR", "SIM", "DTZ"]
+select = ["E", "F", "B", "C90", "PLR", "SIM", "DTZ", "S101"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101"]
+
+[tool.ruff.lint.mccabe]
 max-complexity = 10
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+
+[tool.bandit]
+exclude_dirs = ["tests"]
