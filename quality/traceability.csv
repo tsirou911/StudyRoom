@@ -1,16 +1,16 @@
 risk_id,requirement_id,characteristic,priority,verification,acceptance_scenario,planned_test,status,subcharacteristic
 R-01,FR-06,Functional suitability,Must,δοκιμή,-,IT-CON-01,planned,correctness
 R-01,NFR-02,Reliability,Must,δοκιμή,-,IT-CON-02,planned,faultlessness
-R-02,FR-10,Functional suitability,Must,δοκιμή,AT-CI-01;AT-CI-02;AT-CI-03,IT-CI-01..03,planned,correctness
+R-02,FR-10,Functional suitability,Must,δοκιμή,AT-CI-01;AT-CI-02;AT-CI-03,IT-CI-01..03;TC-BB-17;TC-BB-18,planned,correctness
 R-02,FR-11,Functional suitability,Must,δοκιμή,AT-CI-03;AT-CI-04,IT-CI-04,planned,correctness
-R-03,FR-10,Functional suitability,Must,δοκιμή,AT-CI-02;AT-CI-03,UT-TIME-01,planned,correctness
+R-03,FR-10,Functional suitability,Must,δοκιμή,AT-CI-02;AT-CI-03,UT-TIME-01;TC-BB-17;TC-BB-18,planned,correctness
 R-03,NFR-06,Maintainability,Must,δοκιμή+επιθεώρηση,-,UT-TIME-02,planned,testability
-R-04,FR-13,Functional suitability,Must,δοκιμή,AT-NS-02;AT-NS-06,IT-NS-02;IT-NS-06,planned,correctness
+R-04,FR-13,Functional suitability,Must,δοκιμή,AT-NS-02;AT-NS-06,IT-NS-02;IT-NS-06;TC-BB-14;TC-BB-15,planned,correctness
 R-04,FR-14,Functional suitability,Must,δοκιμή,AT-NS-01;AT-NS-02;AT-NS-03,IT-NS-01..03,planned,correctness
 R-04,FR-15,Functional suitability,Must,δοκιμή,AT-NS-01;AT-NS-04;AT-NS-05,IT-NS-04..05,planned,correctness
 R-04,FR-21,Functional suitability,Must,δοκιμή,AT-NS-06,IT-NS-06,planned,correctness
 R-04,FR-32,Interaction capability,Should,δοκιμή+επίδειξη,-,UX-02,planned,self-descriptiveness
-R-05,FR-03,Functional suitability,Must,δοκιμή,AT-DL-01,IT-DL-01,planned,correctness
+R-05,FR-03,Functional suitability,Must,δοκιμή,AT-DL-01,IT-DL-01;TC-BB-23,planned,correctness
 R-05,FR-04,Functional suitability,Must,δοκιμή,AT-DL-01,IT-DL-02,planned,correctness
 R-06,FR-07,Functional suitability,Must,δοκιμή,-,UT-CAP-01,planned,correctness
 R-06,FR-08,Functional suitability,Must,δοκιμή,-,UT-CAP-02,planned,correctness
@@ -37,10 +37,10 @@ R-15,FR-26,Security,Must,δοκιμή+επιθεώρηση,-,IT-RET-01,planned,c
 R-16,NFR-07,Maintainability,Must,μέτρηση,-,-,planned,analysability
 R-16,NFR-16,Maintainability,Should,επιθεώρηση,-,UT-PARAM-01,planned,modifiability
 R-17,FR-22,Functional suitability,Must,δοκιμή,AT-NS-07,IT-NS-07,planned,completeness
-R-18,FR-10,Functional suitability,Must,δοκιμή,AT-CI-07,IT-CI-07,planned,correctness
+R-18,FR-10,Functional suitability,Must,δοκιμή,AT-CI-07,IT-CI-07;TC-BB-17;TC-BB-18,planned,correctness
 R-18,FR-12,Functional suitability,Must,δοκιμή,AT-CI-07,IT-CI-07,planned,correctness
 R-19,FR-35,Security,Must,δοκιμή,AT-NS-02,IT-NS-08,planned,non-repudiation
-R-19,FR-13,Functional suitability,Must,δοκιμή,AT-NS-06,IT-NS-06,planned,correctness
+R-19,FR-13,Functional suitability,Must,δοκιμή,AT-NS-06,IT-NS-06;TC-BB-14;TC-BB-15,planned,correctness
 R-20,FR-28,Compatibility,Must,δοκιμή,AT-OP-02,IT-EXAM-01,planned,interoperability
 R-20,NFR-17,Functional suitability,Must,δοκιμή,-,IT-EXAM-02,planned,correctness
 R-21,FR-24,Security,Must,δοκιμή+επιθεώρηση,AT-AC-01,SEC-AC-01,planned,confidentiality
@@ -57,8 +57,8 @@ R-26,NFR-16,Maintainability,Should,επιθεώρηση,-,UT-PARAM-01,planned,mo
 R-27,FR-27,Interaction capability,Must,δοκιμή,-,I18N-01,planned,inclusivity
 R-28,NFR-08,Flexibility,Must,δοκιμή,-,UX-MOB-01,planned,adaptability
 R-29,FR-33,Security,Must,δοκιμή,-,IT-SSO-04,planned,authenticity
--,FR-01,Functional suitability,Must,δοκιμή,-,UT-BOOK-01,planned,correctness
--,FR-02,Functional suitability,Must,δοκιμή,-,UT-HOURS-01,planned,correctness
+-,FR-01,Functional suitability,Must,δοκιμή,-,UT-BOOK-01;TC-BB-02,planned,correctness
+-,FR-02,Functional suitability,Must,δοκιμή,-,UT-HOURS-01;TC-BB-01;TC-BB-04,planned,correctness
 -,NFR-04,Interaction capability,Should,επίδειξη+δοκιμή,-,UX-01,planned,learnability
 -,NFR-15,Flexibility,Must,δοκιμή+επίδειξη,-,INST-01,planned,installability
 -,FR-29,Compatibility,Must,δοκιμή,-,IT-EXAM-02,planned,interoperability
